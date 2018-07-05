@@ -27,7 +27,7 @@ entrada = Entry(janela, bd = 10, width = 60, fg = 'blue' , bg = 'grey', text = '
 entrada.place(x = 43, y = 25)
 
 #resultado
-lbres = Label(janela, font = ('Palatino Linotype', 15), text = 'Resultado:',fg = 'black')
+lbres = Label(janela, font = ('Arial', 15), text = 'Resultado:',fg = 'black')
 lbres.place(x = 43, y = 190)
 resultado = Label(janela, font = ('Arial Black', 10, 'bold'), text = ' ', fg = 'blue')
 resultado.place(x = 43, y = 220)
