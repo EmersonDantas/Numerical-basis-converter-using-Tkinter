@@ -20,11 +20,11 @@ janela.title('Conversor de bases numéricas')
 #GUIA input
 
 guia = Label(janela, font = ('Arial', 10, 'bold'), text = 'Digite o número e clique na base desejada:',  fg = 'black')
-guia.place(x = 43, y = 1)
+guia.place(x = 43, y = 13)
 
 #Input
-entrada = Entry(janela, bd = 10, width = 60, fg = 'blue' , bg = 'grey', text = 'Digite aqui:')
-entrada.place(x = 43, y = 25)
+entrada = Entry(janela, bd = 3, width = 62, fg = 'blue' , bg = 'grey', text = 'Digite aqui:')
+entrada.place(x = 42, y = 35)
 
 #resultado
 lbres = Label(janela, font = ('Arial', 15), text = 'Resultado:',fg = 'black')
